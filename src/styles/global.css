@@ -1,0 +1,46 @@
+@import '@fontsource/newsreader/400.css';
+@import '@fontsource/newsreader/400-italic.css';
+@import '@fontsource/newsreader/500.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #FAFAF7;
+  --text: #1A1A19;
+  --muted: #8A8A85;
+  --subtle: #B8B8B0;
+  --border: #DCDCD4;
+  --code-bg: #F0EDE3;
+  --accent: #9C2B1F;
+  --serif: 'Newsreader', 'Source Serif Pro', Georgia, serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, monospace;
+  --max-width: 680px;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 64px 72px 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 32px 32px 0;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

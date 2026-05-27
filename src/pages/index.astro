@@ -1,0 +1,163 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts', ({ data }) => {
+  return import.meta.env.PROD ? !data.draft : true;
+});
+
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const postsByYear = posts.reduce<Record<number, typeof posts>>((acc, post) => {
+  const year = post.data.date.getFullYear();
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(post);
+  return acc;
+}, {});
+
+const years = Object.keys(postsByYear).map(Number).sort((a, b) => b - a);
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' }).toUpperCase();
+}
+---
+
+<Base>
+  <header>
+    <h1 class="name">Dilina Bandara</h1>
+    <p class="bio">Building Just English from Colombo. Writing about products, education, and the long Tuesdays in between.</p>
+    <a class="email" href="mailto:dilinaedu@gmail.com">dilinaedu@gmail.com</a>
+  </header>
+
+  <hr class="divider" />
+
+  <main>
+    {years.map(year => (
+      <section>
+        <h2 class="year">{year}</h2>
+        <ul class="post-list">
+          {postsByYear[year].map(post => (
+            <li class="post-row">
+              <span class="post-date">{formatDate(post.data.date)}</span>
+              <a class="post-title" href={`/posts/${post.id}`}><span class="post-title-text">{post.data.title}</span></a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+
+  <footer>
+    <span>Colombo · 2026</span>
+    <a href="/rss.xml">rss</a>
+  </footer>
+</Base>
+
+<style>
+  .name {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .bio {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--muted);
+    max-width: 460px;
+    margin-top: 12px;
+  }
+
+  .email {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    border-bottom: 1px dotted var(--muted);
+    margin-top: 14px;
+    transition: color 0.15s;
+  }
+
+  .email:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  .divider {
+    border: none;
+    border-top: 0.5px solid var(--border);
+    margin-top: 40px;
+    margin-bottom: 32px;
+  }
+
+  .year {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--subtle);
+    margin-top: 36px;
+    margin-bottom: 14px;
+  }
+
+  .post-list {
+    list-style: none;
+  }
+
+  .post-row {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 24px;
+    margin-bottom: 10px;
+    align-items: start;
+  }
+
+  .post-date {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-top: 3px;
+  }
+
+  .post-title {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.45;
+    color: var(--text);
+  }
+
+  .post-title-text {
+    border-bottom: 0.5px solid transparent;
+    transition: border-color 0.15s;
+  }
+
+  .post-title:hover .post-title-text {
+    border-bottom-color: var(--accent);
+  }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 0.5px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    padding-bottom: 40px;
+  }
+
+  footer a {
+    color: var(--muted);
+    transition: color 0.15s;
+  }
+
+  footer a:hover {
+    color: var(--accent);
+  }
+</style>

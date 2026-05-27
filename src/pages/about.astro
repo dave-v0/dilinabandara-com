@@ -1,0 +1,95 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="About">
+  <header>
+    <h1 class="name">Dilina Bandara</h1>
+    <p class="bio">Building Just English from Colombo. Writing about products, education, and the long Tuesdays in between.</p>
+  </header>
+
+  <main>
+    <h2 class="page-title">About</h2>
+
+    <div class="prose">
+      <p>
+        I grew up in Sri Lanka and have spent most of my adult life in Colombo — a city that moves at its own pace and doesn't apologize for it. I like that about it. There's a particular kind of clarity you get when you're not in a place that's constantly performing ambition at you.
+      </p>
+      <p>
+        I build <a href="https://justenglish.me">Just English</a>, a product that helps people learn English in a way that doesn't feel like homework. The idea started simply enough: I kept seeing how much of the internet's opportunity was locked behind English fluency, and how little of the available software actually helped people get there. Four thousand students later, I'm still learning what that help should look like.
+      </p>
+      <p>
+        Before Just English, I spent a few years at the intersection of software and education — writing code, thinking about product, and slowly coming to the conclusion that most software for learners was built by people who had forgotten what it felt like to not know something. I haven't forgotten. I'm not sure that's a virtue, but it's useful.
+      </p>
+      <p>
+        I read a lot, mostly about systems — how organisations behave, how languages spread, how ideas move from one place to another and get changed in the process. I write here when something feels worth saying in longer form than a passing thought, which is less often than I'd like and more often than I manage.
+      </p>
+    </div>
+
+    <p class="contact">
+      <a class="email" href="mailto:dilinaedu@gmail.com">dilinaedu@gmail.com</a>
+    </p>
+  </main>
+</Base>
+
+<style>
+  .name {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .bio {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--muted);
+    max-width: 460px;
+    margin-top: 12px;
+  }
+
+  .page-title {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 40px;
+  }
+
+  .prose p {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 1.1em;
+  }
+
+  .prose a {
+    color: var(--text);
+    border-bottom: 0.5px solid var(--subtle);
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .prose a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  .contact {
+    margin-top: 40px;
+    padding-bottom: 64px;
+  }
+
+  .email {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    border-bottom: 1px dotted var(--muted);
+    transition: color 0.15s;
+  }
+
+  .email:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+</style>

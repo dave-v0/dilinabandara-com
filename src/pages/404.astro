@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="404">
+  <main>
+    <p class="code">404</p>
+    <h1 class="message">This page does not exist.</h1>
+    <a class="home" href="/">← home</a>
+  </main>
+</Base>
+
+<style>
+  main {
+    padding-top: 24px;
+    padding-bottom: 64px;
+  }
+
+  .code {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+  }
+
+  .message {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+
+  .home {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    transition: color 0.15s;
+  }
+
+  .home:hover {
+    color: var(--accent);
+  }
+</style>
