@@ -25,7 +25,7 @@ function formatDate(date: Date): string {
 <Base>
   <header>
     <h1 class="name">Dilina Bandara</h1>
-    <p class="bio">Building JustEnglish from Colombo, Sri Lanka. Writing about products, education, and the long Tuesdays in between.</p>
+    <p class="bio">I'm currently based in Colombo, Sri Lanka. I run a startup called <a class="bio-link" href="https://justenglish.lk">JustEnglish</a> which helps non-native speakers improve their English without the fear of judgment. I like to travel, read, and experiment with new things. I set up this page to write about my adventures in work, life, people, & whatever else comes with it.</p>
     <a class="email" href="mailto:dilinaedu@gmail.com">dilinaedu@gmail.com</a>
   </header>
 
@@ -68,6 +68,16 @@ function formatDate(date: Date): string {
     color: var(--muted);
     max-width: 460px;
     margin-top: 12px;
+  }
+
+  .bio-link {
+    color: var(--accent);
+    border-bottom: 0.5px solid transparent;
+    transition: border-color 0.15s;
+  }
+
+  .bio-link:hover {
+    border-bottom-color: var(--accent);
   }
 
   .email {
