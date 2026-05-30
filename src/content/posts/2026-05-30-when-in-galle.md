@@ -27,9 +27,9 @@ I walked back to Sydney Bar and went in through the other entrance. Nothing abou
 
 Further back, I watched a man at the counter. Shirt and black pants, corporate by the look of him, leaning over his ගල් and a paper bag of murukku. The bag looked like it had been made from old newspaper or exam paper. He was talking to the bartender uncle about how Sri Lankans don't move anymore, how it's all led to high cholesterol, about television and phones and what it's all doing to people. The uncle was nodding, asking questions. The younger man educating the older one about the modern world, both of them standing in a place that felt untouched by it.
 
-![Sydney arrack bar sign](/images/sydney-arrack-bar-sign.jpeg)
-
 When the corporate guy left, he said his farewell with a "gihin ennam" — see you later — and walked out. I moved to the counter. I had a couple of chewing gums on me and offered one over and we started talking. The bartender uncle was around sixty, easy to chat with. The bar opens at 11am, he told me, and the license allows them to keep the doors open until 10pm sharp. A minute late and there's trouble. I asked about the owner. A man from Colombo, he said, a Christian. Comes by sometimes but doesn't need to. He's probably watching right now, the uncle said, nodding toward the CCTV in the corner. That's how businesses are run these days. He asked me where I was from and what I did. I paused for a second and lied that I worked in accounting at an office in Colombo. It came out before I thought about it, just something to say, a way to fit into the conversation without having to explain too much. We talked for a while after that, about things I don't fully remember now. With about fifteen minutes to closing he kept glancing at the clock on the grey wall. I figured it was time. I said my goodbyes and headed out.
+
+![Sydney arrack bar sign](/images/sydney-arrack-bar-sign.jpeg)
 
 I ordered a Pickme, the local competitor of Uber, and a short man appeared on a bike. It was a fifteen minute ride to my friend's place where I was crashing for the night. We got talking. He worked at the army camp in Galle, wasn't originally from around here, was renting. One kid, and his wife was still at university. The road ran along the coast and to our right the dark ocean moved in the slight rain and wind as we rode through it.
 
