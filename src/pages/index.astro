@@ -71,12 +71,13 @@ function formatDate(date: Date): string {
   }
 
   .bio-link {
-    color: var(--accent);
-    border-bottom: 0.5px solid transparent;
-    transition: border-color 0.15s;
+    color: var(--muted);
+    border-bottom: 1px dotted var(--muted);
+    transition: color 0.15s, border-color 0.15s;
   }
 
   .bio-link:hover {
+    color: var(--accent);
     border-bottom-color: var(--accent);
   }
 
