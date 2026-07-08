@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => {
+    if (data.external) return false;
     return import.meta.env.PROD ? !data.draft : true;
   });
   return posts.map(post => ({
@@ -16,6 +17,7 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 
 const allPosts = await getCollection('posts', ({ data }) => {
+  if (data.external) return false;
   return import.meta.env.PROD ? !data.draft : true;
 });
 const sorted = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
