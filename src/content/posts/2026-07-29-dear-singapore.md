@@ -111,7 +111,7 @@ I spotted a Sri Lankan stall and went closer to check if they were actually Sri 
 
 I had been to Mustafa Centre once before and been overwhelmed. I went back for chocolates to bring home, which is the Sri Lankan tradition when you return from overseas. My mistake. It was packed to a point where I couldn't move.
 
-I decided to walk to the hawker center a friend had introduced me to. It was packed too. McDonald's five dollar meal, I asked myself? Then I thought, wuld Anthony Bourdain do. And I walked into the place he had told me about. JAAN WEST COAST TEKKA NO. 01, all in uppercase on the board.
+I decided to walk to the hawker center a friend had introduced me to. It was packed too. McDonald's five dollar meal, I asked myself? Then I thought, what would Anthony Bourdain do. And I walked into the place he had told me about. JAAN WEST COAST TEKKA NO. 01, all in uppercase on the board.
 
 Mi goreng was five dollars, with a dollar extra for an egg. While I waited an old gentleman told me to grab a chair before someone else did.
 
