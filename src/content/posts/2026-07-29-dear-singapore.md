@@ -7,6 +7,8 @@ I spotted them first. Two women at the edge of the rooftop, where the buildings 
 
 They were Singaporean. I told them I'd always wanted to visit. They asked what I did and before I could answer Nilan jumped in and said I ran an education company that helps people improve their English. "That's awesome," they said, and asked if I was going for startup work. "Yes, hopefully," I said, "but I'm not sure. I've never been overseas before."
 
+![](/images/sg-colombo-rooftop.jpeg)
+
 They shared advice and places to check out, but with the ocean wind and the music coming up from below I could only nod, catching maybe half of what they said. It didn't matter. About an hour before this conversation I had told Nilan about my plans to visit Singapore soon. Nilan was someone I had bumped into randomly at Java Lounge a couple of months earlier and turned friends with. And now here we were, talking to two Singaporeans on a rooftop in Colombo. I wasn't sure if it was confirmation bias or the universe just deciding to be obvious about something. Either way I booked the ticket nine days later. I was twenty one, and it would be my first time leaving the country, alone.
 
 I wasn't sure whether to call Singapore a work trip or a life trip. It gave me both.
