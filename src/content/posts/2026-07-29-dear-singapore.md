@@ -49,21 +49,13 @@ Shan was already at Changi waiting for me, my friend who I had met once online a
 
 ![](/images/sg-shan-noodles.jpeg)
 
-We strolled through what felt like a utopian airport, took train rides, and toured through malls and buildings that seemed to repeat themselves endlessly. Gucci. Louis Vuitton. I wasn't fully sure where I was going or the names of places as I was still taking everything in. At Marina Bay Sands I ran to the Apple Store like a kid, with a globe-like structure sitting in the water nearby.
-
-![](/images/sg-apple-store.jpeg)
-
-I thought about how much Steve Jobs had obsessed over the design when building some of the first Apple Stores when I read his biography.
+We strolled through what felt like a utopian airport, took train rides, and toured through malls and buildings that seemed to repeat themselves endlessly. Gucci. Louis Vuitton. I wasn't fully sure where I was going or the names of places as I was still taking everything in. At Marina Bay Sands I ran to the Apple Store like a kid, with a globe-like structure sitting in the water nearby. I thought about how much Steve Jobs had obsessed over the design when building some of the first Apple Stores when I read his biography.
 
 At some point Shan made me figure out how to move around the MRT on my own, asking me what next when I was mid-journey. It was a good lesson, learning how to move through a new city in a day, without the privilege of cheap Ubers like back home.
 
 ![](/images/sg-mrt.jpeg)
 
-Hostel check-in was at 3pm in Lavender, where I was crashing for the first couple of days.
-
-![](/images/sg-hostel-dorm.jpeg)
-
-When I'd first heard the word I thought it sounded like an air freshener. I had to walk through quiet streets with a mix of old shophouses and newer buildings to get there.
+Hostel check-in was at 3pm in Lavender, where I was crashing for the first couple of days. When I'd first heard the word I thought it sounded like an air freshener. I had to walk through quiet streets with a mix of old shophouses and newer buildings to get there.
 
 I napped for thirty minutes and headed back out to Orchard. I took the MRT halfway and wasn't sure how to use the bus for the rest, so I walked. It took forty minutes, past mall after mall, Gucci again, Louis Vuitton again, H&M, until I couldn't tell them apart anymore. But there was something about seeing those stores at the corner of every street the way you'd see Fashion Bug or Cool Planet back home.
 
@@ -118,6 +110,8 @@ I moved into a hostel in Little India for the last stretch of the trip. Some nig
 I noticed in Little India that when a police car drove by, nobody crossed on a red light. The moment it turned the corner, everyone crossed. I watched it happen more than once.
 
 A man in his fifties at the hostel was complaining that the bed felt like a pigeon nest. I agreed and told him I was in the top bunk too. We had been talking for less than thirty minutes and already had plenty in common. He told me Sri Lanka was a paradise when I mentioned where I was from. I asked him what his favourite food was. "Mi goreng," he said, and told me there was a good spot nearby. My next meeting was at 3pm and I had time to kill, so I put on my bag to go explore and he asked if he could show me the place. "Let's go," I said.
+
+![](/images/sg-hostel-dorm.jpeg)
 
 The first questions I asked him were about what he did for work. He had worked at an oil company. He was married with three kids, and when I asked how old they were he said pretty old. The answers came fast and he passed the test.
 
