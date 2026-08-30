@@ -46,7 +46,3 @@ You cannot tell how far you have come from inside the water. You only see it whe
 Do not paddle out to the biggest waves on day one. Start small. Build confidence. The ocean is not going anywhere.
 
 Some days you will give it everything and still come home unhappy with how it went. That is fine. Tomorrow is a new day, and the waves do not remember.
-
----
-
-I do not know if any of this is original. Probably none of it is. But it landed differently when I learned it while trying not to drown.
